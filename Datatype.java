@@ -69,6 +69,13 @@ public class Datatype{
 
 	}
 
+	static int count=0;
+
+	static  void statickey(){
+
+		   count++;
+		   System.out.println("count"+count);
+	}
 
 	 public static void main(String[] args){
 
@@ -81,5 +88,11 @@ public class Datatype{
 		  Datatype.cheakEligible(18);
 
 		  Datatype.constant();
+		  Datatype.statickey();
+		  Datatype.statickey();
+		  Datatype.statickey();
+		  Datatype.statickey();
+        
+		  
 	 }
 }
