@@ -68,7 +68,6 @@ public class Datatype{
 		  System.out.println("my name:"+name);  
 
 	}
-
 	static int count=0;
 
 	static  void statickey(){
@@ -76,6 +75,7 @@ public class Datatype{
 		   count++;
 		   System.out.println("count"+count);
 	}
+
 
 	 public static void main(String[] args){
 
@@ -92,7 +92,7 @@ public class Datatype{
 		  Datatype.statickey();
 		  Datatype.statickey();
 		  Datatype.statickey();
-        
-		  
+
+    	  
 	 }
 }
